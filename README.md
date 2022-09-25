@@ -4,6 +4,8 @@ MORE TO BE ADDED
 
 - **SIGNUP FUNCTION API CALL (POST REQUEST)**
 
+
+  https://ecommerce-backendg-gosk.herokuapp.com/users/signup
 http://localhost:8000/users/signup
 
 ```json
@@ -20,6 +22,7 @@ Response :"Successfully Signed Up!!"
 
 - **LOGIN FUNCTION API CALL (POST REQUEST)**
 
+  https://ecommerce-backendg-gosk.herokuapp.com/users/login
   http://localhost:8000/users/login
 
 ```json
@@ -52,6 +55,7 @@ response will be like this
 
 - **Add Product Function (POST REQUEST)**
 
+  https://ecommerce-backendg-gosk.herokuapp.com/admin/addproduct
   http://localhost:8000/admin/addproduct
 
 ```json
@@ -67,7 +71,8 @@ response will be like this
 Response : "Successfully added our Product Admin!!"
 
 - **View all the Products in db GET REQUEST**
-
+  
+  https://ecommerce-backendg-gosk.herokuapp.com/users/productview
   http://localhost:8000/users/productview
 
 Response
@@ -91,9 +96,11 @@ Response
 ]
 ```
 
-- **Search Product by regex function (GET REQUEST)**
+- **Search Product function (GET REQUEST)**
 
 defines the word search sorting
+
+  https://ecommerce-backendg-gosk.herokuapp.com/users/search?name=a
 http://localhost:8000/users/search?name=a
 
 response:
